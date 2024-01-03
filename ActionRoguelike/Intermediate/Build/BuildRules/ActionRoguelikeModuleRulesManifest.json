@@ -1,0 +1,8 @@
+{
+	"SourceFiles": [
+		"C:\\Users\\bruno\\Documents\\Unreal Projects\\unreal-action-roguelike\\ActionRoguelike\\Source\\ActionRoguelike\\ActionRoguelike.Build.cs",
+		"C:\\Users\\bruno\\Documents\\Unreal Projects\\unreal-action-roguelike\\ActionRoguelike\\Source\\ActionRoguelike.Target.cs",
+		"C:\\Users\\bruno\\Documents\\Unreal Projects\\unreal-action-roguelike\\ActionRoguelike\\Source\\ActionRoguelikeEditor.Target.cs"
+	],
+	"EngineVersion": "5.3.2"
+}
