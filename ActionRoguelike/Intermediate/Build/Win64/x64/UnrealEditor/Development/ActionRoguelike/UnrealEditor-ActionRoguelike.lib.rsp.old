@@ -1,0 +1,12 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-ActionRoguelike.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\bruno\Documents\Unreal Projects\unreal-action-roguelike\ActionRoguelike\Intermediate\Build\Win64\x64\ActionRoguelikeEditor\Development\Engine\SharedPCH.Engine.Cpp20.h.obj"
+"C:\Users\bruno\Documents\Unreal Projects\unreal-action-roguelike\ActionRoguelike\Intermediate\Build\Win64\x64\UnrealEditor\Development\ActionRoguelike\ActionRoguelike.cpp.obj"
+"C:\Users\bruno\Documents\Unreal Projects\unreal-action-roguelike\ActionRoguelike\Intermediate\Build\Win64\x64\UnrealEditor\Development\ActionRoguelike\Default.rc2.res"
+/OUT:"C:\Users\bruno\Documents\Unreal Projects\unreal-action-roguelike\ActionRoguelike\Intermediate\Build\Win64\x64\UnrealEditor\Development\ActionRoguelike\UnrealEditor-ActionRoguelike.lib"
