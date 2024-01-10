@@ -6,6 +6,9 @@
 #include "GameFramework/Character.h"
 #include "MyCharacter.generated.h"
 
+class UCameraComponent;
+class USpringArmComponent;
+
 UCLASS()
 class ACTIONROGUELIKE_API AMyCharacter : public ACharacter
 {
@@ -14,9 +17,13 @@ class ACTIONROGUELIKE_API AMyCharacter : public ACharacter
 // constructor
 public:
 	// Sets default values for this character's properties
-	AMyCharacter();
+	AMyCharacter(); 
 // this next function will be called whenever our character gets spawned into the world
 protected:
+
+	USpringArmComponent* SpringArmComp;  
+
+	UCameraComponent* CameraComp;
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
