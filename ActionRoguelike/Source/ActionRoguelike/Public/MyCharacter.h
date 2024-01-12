@@ -6,13 +6,15 @@
 #include "GameFramework/Character.h"
 #include "MyCharacter.generated.h"
 
+
+// foredeclare - otherwise our compiler would not know what it is
 class UCameraComponent;
 class USpringArmComponent;
 
 UCLASS()
 class ACTIONROGUELIKE_API AMyCharacter : public ACharacter
 {
-	GENERATED_BODY()
+	 GENERATED_BODY()
 
 // constructor
 public:
@@ -21,6 +23,7 @@ public:
 // this next function will be called whenever our character gets spawned into the world
 protected:
 
+	// we want to make a 3rd person character:
 	USpringArmComponent* SpringArmComp;  
 
 	UCameraComponent* CameraComp;
